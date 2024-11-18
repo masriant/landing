@@ -8,6 +8,7 @@
     <meta name="author" content="Nama Penyelenggara">
     <title>Bimtek Nasional - Pengelolaan Keuangan Koperasi</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <header>
@@ -24,23 +25,24 @@
         </p>
 
         <h2>Detail Kegiatan</h2>
-            <script>
-                document.addEventListener("DOMContentLoaded", function () {
-                    const details = {
-                        hariTanggal: "Senin, 20 November 2024",
-                        waktu: "09:00 - 17:00 WIB",
-                        tempat: "Jakarta Convention Center",
-                        biaya: "1.000.000"
-                    };
+        <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const details = {
+            hariTanggal: "Senin, 20 November 2024",
+            waktu: "09:00 - 17:00 WIB",
+            tempat: "Jakarta Convention Center",
+            biaya: "1.000.000"
+        };
 
-                    // Mengganti konten list dengan data
-                    document.querySelector("li:nth-child(1)").innerHTML = `<strong>Hari/Tanggal:</strong> ${details.hariTanggal}`;
-                    document.querySelector("li:nth-child(2)").innerHTML = `<strong>Waktu:</strong> ${details.waktu}`;
-                    document.querySelector("li:nth-child(3)").innerHTML = `<strong>Tempat:</strong> ${details.tempat}`;
-                    document.querySelector("li:nth-child(4)").innerHTML = `<strong>Kontribusi Peserta:</strong> Rp ${details.biaya}`;
-                });
-            </script>
+        // Mengganti konten list dengan data
+        document.querySelector("li:nth-child(1)").innerHTML = `<strong>Hari/Tanggal:</strong> ${details.hariTanggal}`;
+        document.querySelector("li:nth-child(2)").innerHTML = `<strong>Waktu:</strong> ${details.waktu}`;
+        document.querySelector("li:nth-child(3)").innerHTML = `<strong>Tempat:</strong> ${details.tempat}`;
+        document.querySelector("li:nth-child(4)").innerHTML = `<strong>Kontribusi Peserta:</strong> Rp ${details.biaya}`;
+    });
+</script>
         <ul>
+
             <li><strong>Hari/Tanggal:</strong> [Hari, Tanggal]</li>
             <li><strong>Waktu:</strong> [Jam Pelaksanaan]</li>
             <li><strong>Tempat:</strong> [Lokasi Acara]</li>
@@ -60,7 +62,7 @@
     </div>
 
     <footer>
-        <p>© 2024 Nama Penyelenggara. All Rights Reserved.</p>
+        <p>© <?php echo date("Y");?> Nama Penyelenggara. All Rights Reserved.</p>
     </footer>
 </body>
 </html>

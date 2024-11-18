@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="id">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description"
+            content="Ikuti Bimtek Nasional tentang Pengelolaan Keuangan dan Akuntansi Koperasi. Tingkatkan kompetensi Anda dengan pelatihan profesional. Daftar sekarang!">
+        <meta name="keywords"
+            content="Bimtek Nasional, Pengelolaan Keuangan, Akuntansi Koperasi, Laporan Keuangan, Pelatihan Keuangan, Kinerja Koperasi">
+        <meta name="author" content="Nama Penyelenggara">
+        <title>Bimtek Nasional - Pengelolaan Keuangan Koperasi</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                line-height: 1.6;
+                background-color: #f4f4f9;
+                color: #333;
+            }
+
+            header {
+                background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+                color: #fff;
+                padding: 60px 20px;
+                text-align: center;
+            }
+
+            header h1 {
+                margin: 0;
+                font-size: 2.5rem;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            }
+
+            header p {
+                margin: 10px 0 0;
+                font-size: 1.2rem;
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+            }
+
+            .container {
+                max-width: 800px;
+                margin: 20px auto;
+                padding: 20px;
+                background: #fff;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            h2 {
+                color: #0078d7;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+            }
+
+            ul li {
+                margin: 10px 0;
+                padding-left: 20px;
+                position: relative;
+            }
+
+            ul li::before {
+                content: '✔';
+                position: absolute;
+                left: 0;
+                color: #0078d7;
+            }
+
+            .cta {
+                text-align: center;
+                margin-top: 20px;
+            }
+
+            .cta a {
+                display: inline-block;
+                padding: 15px 30px;
+                background: #0078d7;
+                color: #fff;
+                text-decoration: none;
+                font-size: 1rem;
+                border-radius: 5px;
+                transition: background 0.3s;
+            }
+
+            .cta a:hover {
+                background: #005bb5;
+            }
+
+            .faq {
+                margin-top: 30px;
+            }
+
+            .faq h3 {
+                margin-top: 20px;
+            }
+
+            .contact {
+                background: #0078d7;
+                color: #fff;
+                text-align: center;
+                padding: 20px 0;
+            }
+
+            .contact p {
+                margin: 5px 0;
+            }
+
+            footer {
+                text-align: center;
+                padding: 10px 0;
+                background: #333;
+                color: #fff;
+                margin-top: 20px;
+            }
+
+            form {
+                margin-top: 20px;
+            }
+
+            form label {
+                display: block;
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+
+            form input,
+            form textarea,
+            form button {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+            form button {
+                background: #0078d7;
+                color: #fff;
+                border: none;
+                cursor: pointer;
+            }
+
+            form button:hover {
+                background: #005bb5;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Bimbingan Teknis Nasional</h1>
+            <p>Pengelolaan Keuangan dan Akuntansi Koperasi</p>
+        </header>
+
+        <div class="container">
+            <h2>Tentang Kegiatan</h2>
+            <p>
+                Tingkatkan kompetensi Anda dalam pengelolaan keuangan koperasi melalui bimbingan teknis ini. Pelajari
+                cara
+                mengelola keuangan secara profesional, memahami akuntansi koperasi, dan menganalisis laporan keuangan
+                untuk pengambilan keputusan strategis.
+            </p>
+
+            <h2>Detail Kegiatan</h2>
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    const details = {
+                        hariTanggal: "Senin, 20 November 2024",
+                        waktu: "09:00 - 17:00 WIB",
+                        tempat: "Jakarta Convention Center",
+                        biaya: "1.000.000"
+                    };
+
+                    // Mengganti konten list dengan data
+                    document.querySelector("li:nth-child(1)").innerHTML = `<strong>Hari/Tanggal:</strong> ${details.hariTanggal}`;
+                    document.querySelector("li:nth-child(2)").innerHTML = `<strong>Waktu:</strong> ${details.waktu}`;
+                    document.querySelector("li:nth-child(3)").innerHTML = `<strong>Tempat:</strong> ${details.tempat}`;
+                    document.querySelector("li:nth-child(4)").innerHTML = `<strong>Kontribusi Peserta:</strong> Rp ${details.biaya}`;
+                });
+            </script>
+
+            <ul>
+                <li><strong>Hari/Tanggal:</strong> [Hari, Tanggal]</li>
+                <li><strong>Waktu:</strong> [Jam Pelaksanaan]</li>
+                <li><strong>Tempat:</strong> [Lokasi Acara]</li>
+                <li><strong>Kontribusi Peserta:</strong> Rp [Jumlah Biaya]</li>
+            </ul>
+
+            <h2>Daftar Sekarang</h2>
+            <form action="[URL_PENDAFTARAN]" method="POST">
+                <label for="name">Nama Lengkap:</label>
+                <input type="text" id="name" name="name" placeholder="Masukkan nama lengkap Anda" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+
+                <label for="phone">Nomor Telepon:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Masukkan nomor telepon Anda" required>
+
+                <button type="submit">Daftar Sekarang</button>
+            </form>
+
+            <div class="faq">
+                <h2>FAQ</h2>
+                <h3>Apa itu Bimtek Nasional ini?</h3>
+                <p>Kegiatan ini adalah bimbingan teknis untuk meningkatkan kompetensi pengelola koperasi dalam
+                    pengelolaan keuangan.</p>
+
+                <h3>Siapa yang dapat mengikuti?</h3>
+                <p>Pengurus koperasi, manajer keuangan, atau siapa pun yang ingin meningkatkan keterampilan di bidang
+                    ini.</p>
+            </div>
+        </div>
+
+        <div class="contact">
+            <h2>Hubungi Kami</h2>
+            <p><strong>Email:</strong> info@penyelenggara.com</p>
+            <p><strong>Telepon:</strong> +62 812-3456-7890</p>
+        </div>
+
+        <footer>
+            <p>© 2024 Nama Penyelenggara. All Rights Reserved.</p>
+        </footer>
+    </body>
+
+</html>
